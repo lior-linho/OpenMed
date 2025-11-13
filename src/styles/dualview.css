@@ -1,0 +1,5 @@
+.dv-root { display: flex; flex-direction: column; height: 100vh; }
+.dv-toolbar { padding: 8px 12px; border-bottom: 1px solid #e5e7eb; display:flex; gap:8px; align-items:center; }
+.dv-split { flex: 1; display: grid; grid-template-columns: 1fr 1fr; }
+.dv-pane { position: relative; overflow: hidden; }
+.dv-canvas { width: 100%; height: 100%; display: block; }
