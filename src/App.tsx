@@ -34,7 +34,7 @@ const App: React.FC = () => {
               : "bg-slate-800 text-slate-200 hover:bg-slate-700")
           }
         >
-          Dual View (模型选择)
+          Dual View (Model selection)
         </button>
 
         <button
@@ -46,11 +46,11 @@ const App: React.FC = () => {
               : "bg-slate-800 text-slate-200 hover:bg-slate-700")
           }
         >
-          Wire Demo (导丝)
+          Guidewire Demo
         </button>
 
         <div className="ml-4 text-xs text-slate-400">
-          当前血管: <span className="font-semibold">{vesselId}</span>
+          Current Blood Vessel: <span className="font-semibold">{vesselId}</span>
         </div>
       </header>
 
